@@ -204,11 +204,30 @@ header nav {
 header nav div {
   width: 100%;
 }
+header nav a {
+  color: #696969;
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin: 1%;
+  padding: 1%;
+}
+header nav a:hover {
+  color: #8B0000;
+}
 header nav .signUp-logIn {
   display: flex;
   justify-content: space-between;
   align-items: center;
   justify-content: flex-end;
+}
+header nav .header-modal {
+  font-size: 0.8rem;
+  margin: 0 auto;
+  padding: 0;
+}
+header nav h5 {
+  width: 100%;
+  text-align: end;
 }
 header nav .navbar {
   display: flex;
