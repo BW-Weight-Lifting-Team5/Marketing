@@ -9,7 +9,7 @@
     .landing-page-feature {
       .three-columns();
       .flex-column();
-      .box-bg(@white, 2px, @brown);
+      .box-bg(@white, 2px, @red);
 
       div {
         text-align: center;
@@ -68,7 +68,33 @@
         width: 15vw;
         height: auto;
         margin: 6% 1% 1% 1%;
-        .box-bg(@white, 2px, @brown);
+        .box-bg(@white, 2px, @red);
+      }
+    }
+
+    .three-steps-container {
+      .flex();
+      .flex-column();
+      padding: 0 1%;
+
+      .usage-step {
+        .box-bg(@red, 2px, @white);
+        margin: 2% auto;
+        padding: 1%;
+      }
+
+      .usage-step-reverse {
+        .box-bg(@white, 2px, @red);
+        margin: 2% auto;
+        padding: 1%;
+
+        h4 {
+          text-align: end;
+        }
+
+        p {
+          text-align: end;
+        }
       }
     }
   }

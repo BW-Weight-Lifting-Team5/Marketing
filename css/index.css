@@ -341,7 +341,7 @@ footer .footer-icon-container p {
   flex-direction: column;
   justify-content: center;
   background: #D3D3D3;
-  border: 2px solid #8B4513;
+  border: 2px solid #8B0000;
   border-radius: 20px;
 }
 .landing-page-container .three-features-container .landing-page-feature div {
@@ -402,6 +402,34 @@ footer .footer-icon-container p {
   height: auto;
   margin: 6% 1% 1% 1%;
   background: #D3D3D3;
-  border: 2px solid #8B4513;
+  border: 2px solid #8B0000;
   border-radius: 20px;
+}
+.landing-page-container .bottom-container .three-steps-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 1%;
+}
+.landing-page-container .bottom-container .three-steps-container .usage-step {
+  background: #8B0000;
+  border: 2px solid #D3D3D3;
+  border-radius: 20px;
+  margin: 2% auto;
+  padding: 1%;
+}
+.landing-page-container .bottom-container .three-steps-container .usage-step-reverse {
+  background: #D3D3D3;
+  border: 2px solid #8B0000;
+  border-radius: 20px;
+  margin: 2% auto;
+  padding: 1%;
+}
+.landing-page-container .bottom-container .three-steps-container .usage-step-reverse h4 {
+  text-align: end;
+}
+.landing-page-container .bottom-container .three-steps-container .usage-step-reverse p {
+  text-align: end;
 }
