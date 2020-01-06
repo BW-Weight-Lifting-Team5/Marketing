@@ -311,6 +311,12 @@ footer .footer-icon-container {
 footer .footer-icon-container div {
   text-align: center;
 }
+footer .footer-icon-container div .icon-link {
+  color: black;
+}
+footer .footer-icon-container div .icon-link:hover {
+  color: black;
+}
 footer .footer-icon-container i {
   font-size: 1.6rem;
   margin: 0 auto;
