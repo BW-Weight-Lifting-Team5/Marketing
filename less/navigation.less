@@ -2,9 +2,14 @@ header {
   nav {
     .flex();
     .flex-column();
+    position: fixed;
+    width: 100%;
+    background: @navBg;
+    margin-top: -8.5%;
     
     div {
       width: 100%;
+      opacity: 1;
     }
 
     a {
@@ -16,6 +21,18 @@ header {
 
       &:hover {
         color: @red;
+      }
+    }
+
+    .active-link {
+      text-decoration: underline;
+    }
+
+    .icon-link {
+      color: black;
+
+      &:hover {
+        color: black;
       }
     }
 
@@ -38,6 +55,7 @@ header {
 
     .navbar {
       .flex();
+      padding-bottom: 1%;
 
       .nav-links {
         .flex();
@@ -64,6 +82,7 @@ header {
     background-size: cover;
     text-align: center;
     height: 40vh;
+    margin-top: 8%;
 
     h1 {
       color: @red;
@@ -73,7 +92,6 @@ header {
 
     h2 {
       color: @red;
-      font-size: 3rem;
       height: 50%;
       padding-top: 2%;
     }
