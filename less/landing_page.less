@@ -1,6 +1,6 @@
 .landing-page-container {
   margin-top: 2%;
-  
+
   .three-features-container {
     .flex();
     align-items: flex-start;
@@ -25,6 +25,27 @@
 
       p {
         text-align: center;
+      }
+    }
+  }
+
+  .link-container {
+    background: @navBg;
+    margin: 2% 0;
+    .flex();
+
+    h2 {
+      margin-left: 20%;
+    }
+
+    button {
+      margin-right: 20%;
+      width: 20%;
+      .box-bg(@white, 2px, @brown);
+      font-size: 2rem;
+
+      &:hover {
+        cursor: pointer;
       }
     }
   }

@@ -356,3 +356,24 @@ footer .footer-icon-container p {
 .landing-page-container .three-features-container .landing-page-feature p {
   text-align: center;
 }
+.landing-page-container .link-container {
+  background: #778899;
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-page-container .link-container h2 {
+  margin-left: 20%;
+}
+.landing-page-container .link-container button {
+  margin-right: 20%;
+  width: 20%;
+  background: #D3D3D3;
+  border: 2px solid #8B4513;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+.landing-page-container .link-container button:hover {
+  cursor: pointer;
+}
