@@ -209,14 +209,14 @@ header nav div {
   opacity: 1;
 }
 header nav a {
-  color: #494646;
+  color: #8B0000;
   font-size: 2.5rem;
   text-decoration: none;
   margin: 1%;
   padding: 1%;
 }
 header nav a:hover {
-  color: #8B0000;
+  color: #D3D3D3;
 }
 header nav .active-link {
   text-decoration: underline;
@@ -284,4 +284,44 @@ header .headerImgContainer h2 {
   color: #8B0000;
   height: 50%;
   padding-top: 2%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #778899;
+  height: 8vh;
+}
+footer .footer-link-container {
+  margin-left: 5%;
+  width: 50%;
+}
+footer .footer-link-container a {
+  font-size: 1rem;
+  text-decoration: none;
+  margin: 0 1%;
+  color: #8B0000;
+}
+footer .footer-link-container a:hover {
+  color: #D3D3D3;
+}
+footer .footer-icon-container {
+  width: 10%;
+}
+footer .footer-icon-container div {
+  text-align: center;
+}
+footer .footer-icon-container div .icon-link {
+  color: black;
+}
+footer .footer-icon-container div .icon-link:hover {
+  color: black;
+}
+footer .footer-icon-container i {
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+footer .footer-icon-container p {
+  font-size: 0.6rem;
+  text-align: center;
 }
