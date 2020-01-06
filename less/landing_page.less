@@ -51,4 +51,25 @@
       }
     }
   }
+
+  .bottom-container {
+    .flex();
+
+    .description-block {
+      .flex();
+      .flex-column();
+
+      .description-images {
+        .flex();
+        width: 100%;
+      }
+
+      img {
+        width: 15vw;
+        height: auto;
+        margin: 6% 1% 1% 1%;
+        .box-bg(@white, 2px, @brown);
+      }
+    }
+  }
 }

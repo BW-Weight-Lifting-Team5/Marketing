@@ -379,3 +379,29 @@ footer .footer-icon-container p {
   background: #8B0000;
   color: #D3D3D3;
 }
+.landing-page-container .bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing-page-container .bottom-container .description-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page-container .bottom-container .description-block .description-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.landing-page-container .bottom-container .description-block img {
+  width: 15vw;
+  height: auto;
+  margin: 6% 1% 1% 1%;
+  background: #D3D3D3;
+  border: 2px solid #8B4513;
+  border-radius: 20px;
+}
