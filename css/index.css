@@ -325,3 +325,31 @@ footer .footer-icon-container p {
   font-size: 0.6rem;
   text-align: center;
 }
+.landing-page-container .three-features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  padding: 1%;
+}
+.landing-page-container .three-features-container .landing-page-feature {
+  width: 31%;
+  padding: 1%;
+  flex-direction: column;
+  justify-content: center;
+  background: #D3D3D3;
+  border: 2px solid #8B4513;
+  border-radius: 20px;
+}
+.landing-page-container .three-features-container .landing-page-feature div {
+  text-align: center;
+}
+.landing-page-container .three-features-container .landing-page-feature i {
+  font-size: 2.5rem;
+}
+.landing-page-container .three-features-container .landing-page-feature h3 {
+  text-align: center;
+}
+.landing-page-container .three-features-container .landing-page-feature p {
+  text-align: center;
+}
