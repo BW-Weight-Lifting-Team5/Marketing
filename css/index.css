@@ -204,8 +204,19 @@ header nav {
 header nav div {
   width: 100%;
 }
+header nav .signUp-logIn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+}
 header nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header .headerImgContainer {
+  background-image: url(../images/dumbbells.jpg);
+  background-position: center;
+  background-size: cover;
 }
