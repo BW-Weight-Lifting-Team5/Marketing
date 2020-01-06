@@ -13,15 +13,16 @@ header {
       text-decoration: none;
       margin: 1%;
       padding: 1%;
-    }
 
-    a:hover {
-      color: @red;
+      &:hover {
+        color: @red;
+      }
     }
 
     .signUp-logIn {
       .flex();
       justify-content: flex-end;
+      height: 5vh;
     }
 
     .header-modal {
@@ -37,6 +38,23 @@ header {
 
     .navbar {
       .flex();
+
+      .nav-links {
+        .flex();
+        margin-left: 2%;
+        margin-right: 2%;
+        justify-content: space-evenly;
+      }
+
+      .nav-icon {
+        .flex();
+        justify-content: center;
+        width: 30%;
+      }
+      
+      .middleNavIcon {
+        font-size: 4rem;
+      }
     }
   }
 
@@ -44,5 +62,20 @@ header {
     background-image: url(../images/dumbbells.jpg);
     background-position: center;
     background-size: cover;
+    text-align: center;
+    height: 40vh;
+
+    h1 {
+      color: @red;
+      height: 50%;
+      padding-top: 5%;
+    }
+
+    h2 {
+      color: @red;
+      font-size: 3rem;
+      height: 50%;
+      padding-top: 2%;
+    }
   }
 }

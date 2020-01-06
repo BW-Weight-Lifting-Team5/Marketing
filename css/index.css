@@ -147,6 +147,7 @@ html * {
 html,
 body {
   font-family: 'Questrial', sans-serif;
+  background: #D3D3D3;
 }
 h1,
 h2,
@@ -219,6 +220,7 @@ header nav .signUp-logIn {
   justify-content: space-between;
   align-items: center;
   justify-content: flex-end;
+  height: 5vh;
 }
 header nav .header-modal {
   font-size: 0.8rem;
@@ -234,8 +236,39 @@ header nav .navbar {
   justify-content: space-between;
   align-items: center;
 }
+header nav .navbar .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  justify-content: space-evenly;
+}
+header nav .navbar .nav-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+header nav .navbar .middleNavIcon {
+  font-size: 4rem;
+}
 header .headerImgContainer {
   background-image: url(../images/dumbbells.jpg);
   background-position: center;
   background-size: cover;
+  text-align: center;
+  height: 40vh;
+}
+header .headerImgContainer h1 {
+  color: #8B0000;
+  height: 50%;
+  padding-top: 5%;
+}
+header .headerImgContainer h2 {
+  color: #8B0000;
+  font-size: 3rem;
+  height: 50%;
+  padding-top: 2%;
 }
