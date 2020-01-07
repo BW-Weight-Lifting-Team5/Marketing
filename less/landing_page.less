@@ -6,10 +6,19 @@
     align-items: flex-start;
     padding: 1%;
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .landing-page-feature {
       .three-columns();
       .flex-column();
       .box-bg(@white, 2px, @red);
+
+      @media @mobile {
+        .one-column();
+        margin: 1%;
+      }
 
       div {
         text-align: center;

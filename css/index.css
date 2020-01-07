@@ -419,6 +419,11 @@ footer .footer-icon-container p {
   align-items: flex-start;
   padding: 1%;
 }
+@media (max-width: 500px) {
+  .landing-page-container .three-features-container {
+    flex-direction: column;
+  }
+}
 .landing-page-container .three-features-container .landing-page-feature {
   width: 31%;
   padding: 1%;
@@ -427,6 +432,13 @@ footer .footer-icon-container p {
   background: #D3D3D3;
   border: 2px solid #8B0000;
   border-radius: 20px;
+}
+@media (max-width: 500px) {
+  .landing-page-container .three-features-container .landing-page-feature {
+    width: 98%;
+    padding: 1%;
+    margin: 1%;
+  }
 }
 .landing-page-container .three-features-container .landing-page-feature div {
   text-align: center;
