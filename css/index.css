@@ -344,9 +344,19 @@ footer {
   background: #778899;
   height: 8vh;
 }
+@media (max-width: 500px) {
+  footer {
+    width: 100%;
+  }
+}
 footer .footer-link-container {
   margin-left: 5%;
   width: 50%;
+}
+@media (max-width: 500px) {
+  footer .footer-link-container {
+    width: 70%;
+  }
 }
 footer .footer-link-container a {
   font-size: 1rem;
@@ -354,11 +364,21 @@ footer .footer-link-container a {
   margin: 0 1%;
   color: #8B0000;
 }
+@media (max-width: 500px) {
+  footer .footer-link-container a {
+    font-size: 0.8rem;
+  }
+}
 footer .footer-link-container a:hover {
   color: #D3D3D3;
 }
 footer .footer-icon-container {
   width: 10%;
+}
+@media (max-width: 500px) {
+  footer .footer-icon-container {
+    width: 25%;
+  }
 }
 footer .footer-icon-container div {
   text-align: center;
