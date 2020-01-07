@@ -3,15 +3,27 @@ footer {
   background: @navBg;
   height: 8vh;
 
+  @media @mobile {
+    width: 100%;
+  }
+
   .footer-link-container {
     margin-left: 5%;
     width: 50%;
+
+    @media @mobile {
+      width: 70%;
+    }
 
     a {
       font-size: 1rem;
       text-decoration: none;
       margin: 0 1%;
       color: @red;
+
+      @media @mobile {
+        font-size: .8rem;
+      }
 
       &:hover {
         color: @white;
@@ -24,6 +36,9 @@ footer {
 
     @media @tablet {
       width: 15%;
+    }
+    @media @mobile {
+      width: 25%;
     }
 
     div {
