@@ -11,7 +11,6 @@
   width: 31%;
   padding: 1%;
 }
-
 .two-columns {
   width: 48%;
   padding: 1%;
@@ -196,6 +195,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  image-resolution: 72dpi;
 }
 .container {
   max-width: 800px;
@@ -214,16 +214,14 @@ header nav {
   margin-top: -8.5%;
   height: 18vh;
 }
-
 @media (max-width: 800px) {
   header nav {
     height: 15vh;
   }
-
+}
 @media (max-width: 500px) {
   header nav {
     height: 10vh;
-
   }
 }
 header nav div {
@@ -237,17 +235,15 @@ header nav a {
   margin: 1%;
   padding: 1%;
 }
-
 @media (max-width: 800px) {
   header nav a {
     font-size: 2rem;
   }
-
+}
 @media (max-width: 500px) {
   header nav a {
     font-size: 1.2rem;
   }
-  
 }
 header nav a:hover {
   color: #D3D3D3;
@@ -326,12 +322,11 @@ header nav .navbar .nav-icon {
 header nav .navbar .middleNavIcon {
   font-size: 4rem;
 }
-
 @media (max-width: 800px) {
   header nav .navbar .middleNavIcon {
     font-size: 2.5rem;
   }
-
+}
 @media (max-width: 500px) {
   header nav .navbar .middleNavIcon {
     font-size: 2rem;
@@ -350,13 +345,12 @@ header .headerImgContainer h1 {
   height: 50%;
   padding-top: 10%;
 }
-
 @media (max-width: 800px) {
   header .headerImgContainer h1 {
     font-size: 3.5rem;
     padding-top: 15%;
   }
-
+}
 @media (max-width: 500px) {
   header .headerImgContainer h1 {
     font-size: 3rem;
@@ -368,13 +362,12 @@ header .headerImgContainer h2 {
   height: 50%;
   padding-top: 4%;
 }
-
 @media (max-width: 800px) {
   header .headerImgContainer h2 {
     font-size: 2.5rem;
     padding-top: 5%;
   }
-
+}
 @media (max-width: 500px) {
   header .headerImgContainer h2 {
     font-size: 2.2rem;
@@ -419,12 +412,11 @@ footer .footer-link-container a:hover {
 footer .footer-icon-container {
   width: 10%;
 }
-
 @media (max-width: 800px) {
   footer .footer-icon-container {
     width: 15%;
   }
-
+}
 @media (max-width: 500px) {
   footer .footer-icon-container {
     width: 25%;
@@ -457,7 +449,6 @@ footer .footer-icon-container p {
   align-items: flex-start;
   padding: 1%;
 }
-
 @media (max-width: 800px) {
   .landing-page-container .three-features-container {
     flex-wrap: wrap;
@@ -466,7 +457,7 @@ footer .footer-icon-container p {
     width: 100%;
     margin-top: 2%;
   }
-
+}
 @media (max-width: 500px) {
   .landing-page-container .three-features-container {
     flex-direction: column;
@@ -481,13 +472,12 @@ footer .footer-icon-container p {
   border: 2px solid #8B0000;
   border-radius: 20px;
 }
-
 @media (max-width: 800px) {
   .landing-page-container .three-features-container .landing-page-feature {
     width: 48%;
     padding: 1%;
   }
-
+}
 @media (max-width: 500px) {
   .landing-page-container .three-features-container .landing-page-feature {
     width: 98%;
@@ -514,13 +504,11 @@ footer .footer-icon-container p {
   justify-content: space-between;
   align-items: center;
 }
-
 @media (max-width: 800px) {
   .landing-page-container .link-container {
     flex-direction: column;
   }
- }
-
+}
 @media (max-width: 500px) {
   .landing-page-container .link-container {
     flex-direction: column;
@@ -550,14 +538,13 @@ footer .footer-icon-container p {
   border-radius: 20px;
   font-size: 2rem;
 }
-  
 @media (max-width: 800px) {
   .landing-page-container .link-container button {
     margin-right: 0;
     margin-bottom: 2%;
     width: 40%;
   }
-
+}
 @media (max-width: 500px) {
   .landing-page-container .link-container button {
     margin-right: 0;
@@ -575,13 +562,11 @@ footer .footer-icon-container p {
   justify-content: space-between;
   align-items: center;
 }
-
 @media (max-width: 800px) {
   .landing-page-container .bottom-container {
     flex-direction: column;
   }
- }
-
+}
 @media (max-width: 500px) {
   .landing-page-container .bottom-container {
     flex-direction: column;
