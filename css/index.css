@@ -453,6 +453,11 @@ footer .footer-icon-container p {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container {
+    flex-direction: column;
+  }
+}
 .landing-page-container .bottom-container .description-block {
   display: flex;
   justify-content: space-between;
@@ -474,6 +479,12 @@ footer .footer-icon-container p {
   border: 2px solid #8B0000;
   border-radius: 20px;
 }
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container .description-block img {
+    width: 28vw;
+    margin: 1% auto;
+  }
+}
 .landing-page-container .bottom-container .three-steps-container {
   display: flex;
   justify-content: space-between;
@@ -489,12 +500,22 @@ footer .footer-icon-container p {
   margin: 2% auto;
   padding: 1%;
 }
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container .three-steps-container .usage-step {
+    margin: 1% auto;
+  }
+}
 .landing-page-container .bottom-container .three-steps-container .usage-step-reverse {
   background: #D3D3D3;
   border: 2px solid #8B0000;
   border-radius: 20px;
   margin: 2% auto;
   padding: 1%;
+}
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container .three-steps-container .usage-step-reverse {
+    margin: 1% auto;
+  }
 }
 .landing-page-container .bottom-container .three-steps-container .usage-step-reverse h4 {
   text-align: end;

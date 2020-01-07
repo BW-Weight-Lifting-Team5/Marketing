@@ -82,6 +82,10 @@
   .bottom-container {
     .flex();
 
+    @media @tablet {
+      flex-direction: column;
+    }
+
     .description-block {
       .flex();
       .flex-column();
@@ -96,6 +100,11 @@
         height: auto;
         margin: 6% 1% 1% 1%;
         .box-bg(@white, 2px, @red);
+
+        @media @tablet {
+          width: 28vw;
+          margin: 1% auto;
+        }
       }
     }
 
@@ -108,12 +117,20 @@
         .box-bg(@red, 2px, @white);
         margin: 2% auto;
         padding: 1%;
+
+        @media @tablet {
+          margin: 1% auto;
+        }
       }
 
       .usage-step-reverse {
         .box-bg(@white, 2px, @red);
         margin: 2% auto;
         padding: 1%;
+
+        @media @tablet {
+          margin: 1% auto;
+        }
 
         h4 {
           text-align: end;
