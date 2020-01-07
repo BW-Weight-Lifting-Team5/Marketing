@@ -6,10 +6,23 @@
     align-items: flex-start;
     padding: 1%;
 
+    @media @tablet {
+      flex-wrap: wrap;
+
+      div:nth-child(3) {
+        width: 100%;
+        margin-top: 2%;
+      }
+    }
+
     .landing-page-feature {
       .three-columns();
       .flex-column();
       .box-bg(@white, 2px, @red);
+
+      @media @tablet {
+        .two-columns();
+      }
 
       div {
         text-align: center;
@@ -34,8 +47,16 @@
     margin: 2% 0;
     .flex();
 
+    @media @tablet {
+      flex-direction: column;
+    }
+
     h2 {
       margin-left: 10%;
+
+      @media @tablet {
+        margin-left: 0;
+      }
     }
 
     button {
@@ -43,6 +64,12 @@
       width: 20%;
       .box-bg(@white, 2px, @red);
       font-size: 2rem;
+
+      @media @tablet {
+        margin-right: 0;
+        margin-bottom: 2%;
+        width: 40%;
+      }
 
       &:hover {
         cursor: pointer;

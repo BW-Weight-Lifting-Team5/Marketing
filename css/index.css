@@ -372,6 +372,15 @@ footer .footer-icon-container p {
   align-items: flex-start;
   padding: 1%;
 }
+@media (max-width: 800px) {
+  .landing-page-container .three-features-container {
+    flex-wrap: wrap;
+  }
+  .landing-page-container .three-features-container div:nth-child(3) {
+    width: 100%;
+    margin-top: 2%;
+  }
+}
 .landing-page-container .three-features-container .landing-page-feature {
   width: 31%;
   padding: 1%;
@@ -380,6 +389,12 @@ footer .footer-icon-container p {
   background: #D3D3D3;
   border: 2px solid #8B0000;
   border-radius: 20px;
+}
+@media (max-width: 800px) {
+  .landing-page-container .three-features-container .landing-page-feature {
+    width: 48%;
+    padding: 1%;
+  }
 }
 .landing-page-container .three-features-container .landing-page-feature div {
   text-align: center;
@@ -400,8 +415,18 @@ footer .footer-icon-container p {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 800px) {
+  .landing-page-container .link-container {
+    flex-direction: column;
+  }
+}
 .landing-page-container .link-container h2 {
   margin-left: 10%;
+}
+@media (max-width: 800px) {
+  .landing-page-container .link-container h2 {
+    margin-left: 0;
+  }
 }
 .landing-page-container .link-container button {
   margin-right: 20%;
@@ -410,6 +435,13 @@ footer .footer-icon-container p {
   border: 2px solid #8B0000;
   border-radius: 20px;
   font-size: 2rem;
+}
+@media (max-width: 800px) {
+  .landing-page-container .link-container button {
+    margin-right: 0;
+    margin-bottom: 2%;
+    width: 40%;
+  }
 }
 .landing-page-container .link-container button:hover {
   cursor: pointer;
