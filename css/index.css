@@ -497,6 +497,11 @@ footer .footer-icon-container p {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .landing-page-container .bottom-container {
+    flex-direction: column;
+  }
+}
 .landing-page-container .bottom-container .description-block {
   display: flex;
   justify-content: space-between;
@@ -504,11 +509,29 @@ footer .footer-icon-container p {
   flex-direction: column;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .landing-page-container .bottom-container .description-block {
+    padding-top: 2%;
+  }
+  .landing-page-container .bottom-container .description-block h3 {
+    text-align: end;
+    font-size: 1.7rem;
+  }
+  .landing-page-container .bottom-container .description-block p {
+    text-align: center;
+  }
+}
 .landing-page-container .bottom-container .description-block .description-images {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .landing-page-container .bottom-container .description-block .description-images {
+    visibility: hidden;
+    height: 0;
+  }
 }
 .landing-page-container .bottom-container .description-block img {
   width: 15vw;

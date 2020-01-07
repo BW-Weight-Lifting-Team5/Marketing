@@ -78,13 +78,34 @@
   .bottom-container {
     .flex();
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .description-block {
       .flex();
       .flex-column();
 
+      @media @mobile {
+        padding-top: 2%;
+        h3 {
+          text-align: end;
+          font-size: 1.7rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
       .description-images {
         .flex();
         width: 100%;
+
+        @media @mobile {
+          visibility: hidden;
+          height: 0;
+        }
       }
 
       img {
