@@ -422,10 +422,13 @@ footer .footer-icon-container p {
 }
 .landing-page-container .link-container h2 {
   margin-left: 10%;
+  width: 50%;
 }
 @media (max-width: 800px) {
   .landing-page-container .link-container h2 {
+    width: 100%;
     margin-left: 0;
+    text-align: center;
   }
 }
 .landing-page-container .link-container button {
