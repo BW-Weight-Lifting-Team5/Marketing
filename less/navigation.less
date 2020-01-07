@@ -7,6 +7,10 @@ header {
     background: @navBg;
     margin-top: -8.5%;
     height: 18vh;
+
+    @media @tablet {
+      height: 15vh;
+    }
     
     div {
       width: 100%;
@@ -19,6 +23,10 @@ header {
       text-decoration: none;
       margin: 1%;
       padding: 1%;
+
+      @media @tablet {
+        font-size: 2rem;
+      }
 
       &:hover {
         color: @white;
@@ -73,6 +81,10 @@ header {
       
       .middleNavIcon {
         font-size: 4rem;
+
+        @media @tablet {
+          font-size: 2.5rem;
+        }
       }
     }
   }
