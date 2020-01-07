@@ -6,10 +6,19 @@
     align-items: flex-start;
     padding: 1%;
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .landing-page-feature {
       .three-columns();
       .flex-column();
       .box-bg(@white, 2px, @red);
+
+      @media @mobile {
+        .one-column();
+        margin: 1%;
+      }
 
       div {
         text-align: center;
@@ -34,8 +43,16 @@
     margin: 2% 0;
     .flex();
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     h2 {
       margin-left: 20%;
+
+      @media @mobile {
+        margin-left: 0;
+      }
     }
 
     button {
@@ -43,6 +60,12 @@
       width: 20%;
       .box-bg(@white, 2px, @red);
       font-size: 2rem;
+
+      @media @mobile {
+        margin-right: 0;
+        margin-bottom: 2%;
+        width: 80%;
+      }
 
       &:hover {
         cursor: pointer;
@@ -55,13 +78,34 @@
   .bottom-container {
     .flex();
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .description-block {
       .flex();
       .flex-column();
 
+      @media @mobile {
+        padding-top: 2%;
+        h3 {
+          text-align: end;
+          font-size: 1.7rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
       .description-images {
         .flex();
         width: 100%;
+
+        @media @mobile {
+          visibility: hidden;
+          height: 0;
+        }
       }
 
       img {
