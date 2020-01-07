@@ -332,10 +332,22 @@ header .headerImgContainer h1 {
   height: 50%;
   padding-top: 10%;
 }
+@media (max-width: 500px) {
+  header .headerImgContainer h1 {
+    font-size: 3rem;
+    padding-top: 25%;
+  }
+}
 header .headerImgContainer h2 {
   color: #8B0000;
   height: 50%;
   padding-top: 4%;
+}
+@media (max-width: 500px) {
+  header .headerImgContainer h2 {
+    font-size: 2.2rem;
+    padding-top: 8%;
+  }
 }
 footer {
   display: flex;
