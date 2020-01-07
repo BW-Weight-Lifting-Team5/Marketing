@@ -211,7 +211,7 @@ header nav {
 }
 @media (max-width: 500px) {
   header nav {
-    height: 15vh;
+    height: 10vh;
   }
 }
 header nav div {
@@ -249,27 +249,20 @@ header nav .signUp-logIn {
   justify-content: flex-end;
   height: 5vh;
 }
+@media (max-width: 500px) {
+  header nav .signUp-logIn {
+    visibility: hidden;
+    height: 0;
+  }
+}
 header nav .header-modal {
   font-size: 0.8rem;
   margin: 0 auto;
   padding: 0;
 }
-@media (max-width: 500px) {
-  header nav .header-modal {
-    font-size: 1.2rem;
-  }
-}
 header nav h5 {
   width: 100%;
   text-align: end;
-}
-@media (max-width: 500px) {
-  header nav h5 {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 1%;
-  }
 }
 header nav .navbar {
   display: flex;
@@ -279,7 +272,7 @@ header nav .navbar {
 }
 @media (max-width: 500px) {
   header nav .navbar {
-    height: 80%;
+    height: 50%;
     margin-left: 2%;
   }
 }
