@@ -26,6 +26,10 @@ header {
 
       @media @mobile {
         font-size: 1.2rem;
+
+        &:not(:first-child) {
+          display: none;
+        }
       }
 
       &:hover {
@@ -69,7 +73,28 @@ header {
 
     .navbar {
       .flex();
+      flex-direction: row-reverse;
       padding-bottom: 1%;
+
+      @media @mobile {
+        .responsive {
+          position: relative;
+        }
+      }
+
+      .icon {
+        display: none;
+
+        @media @mobile {
+          display: block;
+          position: absolute;
+          margin-right: 25%;
+          margin-top: -8%;
+          right: 0;
+          top: 0;
+          font-size: 2rem;
+        }
+      }
 
       @media @mobile {
         height: 50%;

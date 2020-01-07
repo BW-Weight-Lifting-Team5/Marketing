@@ -229,6 +229,9 @@ header nav a {
   header nav a {
     font-size: 1.2rem;
   }
+  header nav a:not(:first-child) {
+    display: none;
+  }
 }
 header nav a:hover {
   color: #D3D3D3;
@@ -268,7 +271,27 @@ header nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row-reverse;
   padding-bottom: 1%;
+}
+@media (max-width: 500px) {
+  header nav .navbar .responsive {
+    position: relative;
+  }
+}
+header nav .navbar .icon {
+  display: none;
+}
+@media (max-width: 500px) {
+  header nav .navbar .icon {
+    display: block;
+    position: absolute;
+    margin-right: 25%;
+    margin-top: -8%;
+    right: 0;
+    top: 0;
+    font-size: 2rem;
+  }
 }
 @media (max-width: 500px) {
   header nav .navbar {
