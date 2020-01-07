@@ -43,8 +43,16 @@
     margin: 2% 0;
     .flex();
 
+    @media @mobile {
+      flex-direction: column;
+    }
+
     h2 {
       margin-left: 20%;
+
+      @media @mobile {
+        margin-left: 0;
+      }
     }
 
     button {
@@ -52,6 +60,12 @@
       width: 20%;
       .box-bg(@white, 2px, @red);
       font-size: 2rem;
+
+      @media @mobile {
+        margin-right: 0;
+        margin-bottom: 2%;
+        width: 80%;
+      }
 
       &:hover {
         cursor: pointer;
