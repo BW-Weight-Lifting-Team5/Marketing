@@ -283,6 +283,10 @@ header nav .navbar .dropdown {
   float: left;
   overflow: hidden;
 }
+header nav .navbar .dropdown #toggle-nav {
+  width: 10%;
+  text-align: end;
+}
 header nav .navbar .dropdown .icon {
   display: none;
 }
@@ -306,6 +310,9 @@ header nav .navbar .dropdown:hover .dropdown-content {
 }
 header nav .navbar .dropdown:hover .dropdown-content a {
   color: #8B0000;
+}
+header nav .navbar .dropdown:hover .dropdown-content a:hover {
+  color: #494646;
 }
 header nav .navbar .dropdown-content {
   display: none;
@@ -336,6 +343,9 @@ header nav .navbar .nav-links {
   margin-left: 2%;
   margin-right: 2%;
   justify-content: space-evenly;
+}
+header nav .navbar .nav-links a {
+  width: 25%;
 }
 @media (max-width: 500px) {
   header nav .navbar .nav-links {

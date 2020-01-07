@@ -21,19 +21,26 @@
         </div> <!-- End of Sign Up / Login Container-->
 
         <div class="navbar"> <!-- Main Navbar -->
-          <div class="nav-links"> <!-- Left Nav Links -->
-            <a href="index.html">Home</a>
-            <a href="features.html" class="active-link">Features</a>
-          </div> <!-- End of Left Nav Links -->
-
-          <div class="nav-icon"> <!-- Middle Nav Icon -->
-            <a href="index.html" class="icon-link"><i class="fas fa-dumbbell middleNavIcon"></i></a>
-          </div> <!-- End of Middle Nav Icon -->
-
-          <div class="nav-links"> <!-- Right Nav Links -->
+          <div class="nav-links"> <!-- Nav Links -->
+            <div class="dropdown">
+              <a href="javascript:void(0);" class="icon" id="toggle-nav"><i class="fas fa-bars"></i></a>
+              <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+            <a href="index.html" class="active-link">Home</a>
+            <a href="features.html">Features</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
-          </div> <!-- End of Right Nav Links -->
+          </div> <!-- End of Nav Links -->
+
+          <div class="nav-icon"> <!-- Nav Icon -->
+            <a href="index.html" class="icon-link"><i class="fas fa-dumbbell middleNavIcon"></i></a>
+          </div> <!-- End of Nav Icon -->
+
         </div> <!-- End of Main Navbar -->
       </nav>
 
