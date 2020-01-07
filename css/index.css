@@ -300,10 +300,22 @@ header .headerImgContainer h1 {
   height: 50%;
   padding-top: 10%;
 }
+@media (max-width: 800px) {
+  header .headerImgContainer h1 {
+    font-size: 3.5rem;
+    padding-top: 15%;
+  }
+}
 header .headerImgContainer h2 {
   color: #8B0000;
   height: 50%;
   padding-top: 4%;
+}
+@media (max-width: 800px) {
+  header .headerImgContainer h2 {
+    font-size: 2.5rem;
+    padding-top: 5%;
+  }
 }
 footer {
   display: flex;
@@ -389,7 +401,7 @@ footer .footer-icon-container p {
   align-items: center;
 }
 .landing-page-container .link-container h2 {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .landing-page-container .link-container button {
   margin-right: 20%;
