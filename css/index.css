@@ -147,13 +147,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html * {
-  font-size: 62.5%;
+:root {
   box-sizing: border-box;
 }
 html,
 body {
-  font-family: 'Questrial', sans-serif;
+  font-family: "Questrial", sans-serif;
   background: #d3d3d3;
 }
 h1,
@@ -162,7 +161,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
 }
 h1 {
   font-size: 4.5rem;
@@ -210,7 +209,6 @@ header nav {
   justify-content: center;
   position: fixed;
   width: 100%;
-  background: #778899;
   margin-top: -8.5%;
   height: 18vh;
 }
@@ -655,25 +653,4 @@ footer .footer-icon-container p {
 }
 .landing-page-container .bottom-container .three-steps-container .usage-step-reverse p {
   text-align: end;
-}
-.about {
-  background-color: #f9f9f9;
-}
-.about h2 {
-  text-align: center;
-  color: blue;
-}
-.team {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.team .card {
-  width: 40%;
-  padding: 20px;
-  border-radius: 10px;
-  height: 200px;
-  background-color: white;
-  margin: 5px;
-  font-size: 20px;
 }
