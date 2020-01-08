@@ -8,6 +8,17 @@ header {
     margin-top: -8.5%;
     height: 18vh;
 
+<<<<<<< HEAD
+=======
+    @media @tablet {
+      height: 15vh;
+    }
+    
+    @media @mobile {
+      height: 10vh;
+    }
+    
+>>>>>>> 662f69ba97d3f8b58f38c95b35160d8cc43117e9
     div {
       width: 100%;
       opacity: 1;
@@ -19,6 +30,14 @@ header {
       text-decoration: none;
       margin: 1%;
       padding: 1%;
+
+      @media @tablet {
+        font-size: 2rem;
+      }
+
+      @media @mobile {
+        font-size: 1.2rem;
+      }
 
       &:hover {
         color: @white;
@@ -41,6 +60,11 @@ header {
       .flex();
       justify-content: flex-end;
       height: 5vh;
+
+      @media @mobile {
+        visibility: hidden;
+        height: 0;
+      }
     }
 
     .header-modal {
@@ -58,21 +82,45 @@ header {
       .flex();
       padding-bottom: 1%;
 
+      @media @mobile {
+        height: 50%;
+        margin-left: 2%;
+      }
+
       .nav-links {
         .flex();
         margin-left: 2%;
         margin-right: 2%;
         justify-content: space-evenly;
+
+        @media @mobile {
+          width: 45%;
+          margin: 0;
+          justify-content: space-around;
+        }
       }
 
       .nav-icon {
         .flex();
         justify-content: center;
         width: 30%;
+
+        @media @mobile {
+          order: 1;
+          align-items: flex-start;
+        }
       }
 
       .middleNavIcon {
         font-size: 4rem;
+
+        @media @tablet {
+          font-size: 2.5rem;
+        }
+
+        @media @mobile {
+          font-size: 2rem;
+        }
       }
     }
   }
@@ -90,12 +138,32 @@ header {
       color: @red;
       height: 50%;
       padding-top: 10%;
+
+      @media @tablet {
+        font-size: 3.5rem;
+        padding-top: 15%;
+      }
+
+      @media @mobile {
+        font-size: 3rem;
+        padding-top: 25%;
+      }
     }
 
     h2 {
       color: @red;
       height: 50%;
       padding-top: 4%;
+
+      @media @tablet {
+        font-size: 2.5rem;
+        padding-top: 5%;
+      }
+
+      @media @mobile {
+        font-size: 2.2rem;
+        padding-top: 8%;
+      }
     }
   }
 }

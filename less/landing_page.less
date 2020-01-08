@@ -6,10 +6,31 @@
     align-items: flex-start;
     padding: 1%;
 
+    @media @tablet {
+      flex-wrap: wrap;
+
+      div:nth-child(3) {
+        width: 100%;
+        margin-top: 2%;
+      }
+    }
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .landing-page-feature {
       .three-columns();
       .flex-column();
       .box-bg(@white, 2px, @red);
+
+
+      @media @tablet {
+        .two-columns();
+      }
+      @media @mobile {
+        .one-column();
+        margin: 1%;
+      }
 
       div {
         text-align: center;
@@ -34,8 +55,27 @@
     margin: 2% 0;
     .flex();
 
+    @media @tablet {
+      flex-direction: column;
+    }
+
+    @media @mobile {
+      flex-direction: column;
+    }
+
     h2 {
-      margin-left: 20%;
+      margin-left: 10%;
+      width: 50%;
+
+      @media @tablet {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+      }
+      
+      @media @mobile {
+        margin-left: 0;
+      }
     }
 
     button {
@@ -43,6 +83,17 @@
       width: 20%;
       .box-bg(@white, 2px, @red);
       font-size: 2rem;
+
+      @media @tablet {
+        margin-right: 0;
+        margin-bottom: 2%;
+        width: 40%;
+      }
+      @media @mobile {
+        margin-right: 0;
+        margin-bottom: 2%;
+        width: 80%;
+      }
 
       &:hover {
         cursor: pointer;
@@ -55,13 +106,38 @@
   .bottom-container {
     .flex();
 
+    @media @tablet {
+      flex-direction: column;
+    }
+
+    @media @mobile {
+      flex-direction: column;
+    }
+
     .description-block {
       .flex();
       .flex-column();
 
+      @media @mobile {
+        padding-top: 2%;
+        h3 {
+          text-align: end;
+          font-size: 1.7rem;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
       .description-images {
         .flex();
         width: 100%;
+
+        @media @mobile {
+          visibility: hidden;
+          height: 0;
+        }
       }
 
       img {
@@ -69,6 +145,11 @@
         height: auto;
         margin: 6% 1% 1% 1%;
         .box-bg(@white, 2px, @red);
+
+        @media @tablet {
+          width: 28vw;
+          margin: 1% auto;
+        }
       }
     }
 
@@ -81,12 +162,20 @@
         .box-bg(@red, 2px, @white);
         margin: 2% auto;
         padding: 1%;
+
+        @media @tablet {
+          margin: 1% auto;
+        }
       }
 
       .usage-step-reverse {
         .box-bg(@white, 2px, @red);
         margin: 2% auto;
         padding: 1%;
+
+        @media @tablet {
+          margin: 1% auto;
+        }
 
         h4 {
           text-align: end;
