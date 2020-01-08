@@ -1,0 +1,4 @@
+page breaks when I remove the head image background image
+-8.5% margin?
+added border-bottom to image
+optimize images coz they're too large
