@@ -1,135 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Weight Lifting App Title</title>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather|Solway|Ultra|Vidaloka&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="./images/barbelllift.jpg" type="image/x-icon" />
+
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/barbelllift.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/3d60a2a03b.js" crossorigin="anonymous"></script>
-    <link href="css/about-page.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <div class="nav-wrapper floating-nav">
-        <nav>
-          <div class="nav-icon">
+      <nav>
+        <div class="signUp-logIn"> <!-- Sign Up / Login Container -->
+          <h5><a class="header-modal" href="">Sign Up</a> / <a class="header-modal" href="">Login</a></h5>
+        </div> <!-- End of Sign Up / Login Container-->
+
+        <div class="navbar"> <!-- Main Navbar -->
+          <div class="nav-links"> <!-- Left Nav Links -->
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+          </div> <!-- End of Left Nav Links -->
+
+          <div class="nav-icon"> <!-- Middle Nav Icon -->
             <a href="index.html" class="icon-link"><i class="fas fa-dumbbell middleNavIcon"></i></a>
-          </div>
-          <a href="index.html">Home</a>
-          <a href="features.html">Features</a>
-          <a href="about.html" class="active-link">About</a>
-          <a href="contact.html">Contact</a>
-          <a class="cta" href="#">Login</a>
-          <a class="cta signup" href="#">Sign Up</a>
-        </nav>
+          </div> <!-- End of Middle Nav Icon -->
+
+          <div class="nav-links"> <!-- Right Nav Links -->
+            <a href="about.html" class="active-link">About</a>
+            <a href="contact.html">Contact</a>
+          </div> <!-- End of Right Nav Links -->
+        </div> <!-- End of Main Navbar -->
+      </nav>
+
+      <div class="headerImgContainer"> <!-- Background image -->
+        <h1>Main Heading</h1>
+        <h2 class="headerH2">Elevator Pitch</h2>
       </div>
     </header>
 
-    <div class="about">
-      <h2>Meet Our Amazing Team</h2>
-      <div class="team">
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/amanda.jpeg" alt="Amanda Hogan" />
-          </div>
-          <h4>Amanda Hogan</h4>
-          <p>Landing Page</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/austin.jpeg" alt="Austin Walela" />
-          </div>
-          <h4>Austin Walela</h4>
-          <p>Landing Page</p>
-          <a href="https://github.com/lqtm">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/david.png" alt="David Tauraso" />
-          </div>
-          <h4>David Tauraso</h4>
-          <p>Frontend Engineer</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/edwin.jpeg" alt="Edwin Deronvil" />
-          </div>
-          <h4>Edwin Deronvil</h4>
-          <p>Frontend Engineer</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/susan.jpeg" alt="Susan Trimnal" />
-          </div>
-          <h4>Susan Leigh Trimnal</h4>
-          <p>Backend Engineer</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/zachary.jpeg" alt="Zach Bumpous" />
-          </div>
-          <h4>Zach Bumpous</h4>
-          <p>Backend Engineer</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-        <div class="card">
-          <div class="img-container">
-            <img src="images/team/brandy.jpeg" alt="Brandy Becker" />
-          </div>
-          <h4>Brandy Becker</h4>
-          <p>Project Lead</p>
-          <a href="https://github.com/anhogan">GitHub</a>
-        </div>
-      </div>
-    </div>
-    <div class="cta-wrapper">
-      <section class="cta-section">
-        <div class="text">
-          <h3>Ready to get started?</h3>
-          <p>Get started today and make your first step towards your fitness goals!</p>
-        </div>
-        <div class="buttons">
-          <ul>
-            <a href="#">
-              <li class="log-in">Log in</li>
-            </a>
-            <a href="#">
-              <li class="sign-up"><span>Sign Up</span></li>
-            </a>
-          </ul>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <div class="footer-link-container">
-        <!-- Footer Links -->
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <!-- End of Footer Links -->
+    <div class="about-page-container"> <!-- Main Container -->
 
-      <div class="footer-icon-container">
-        <!-- Footer Icon -->
+    </div> <!-- End of Main Container -->
+
+    <footer>
+      <div class="footer-link-container"> <!-- Footer Links -->
+        <a class="footer-link" href="index.html">Home</a>
+        <a class="footer-link" href="features.html">Features</a>
+        <a class="footer-link" href="about.html">About</a>
+        <a class="footer-link" href="contact.html">Contact</a>
+      </div> <!-- End of Footer Links -->
+
+      <div class="footer-icon-container"> <!-- Footer Icon -->
         <div>
           <a href="index.html" class="icon-link"><i class="fas fa-dumbbell footer-img"></i></a>
         </div>
         <p class="footer-copyright">Copyright 2020</p>
-      </div>
-      <!-- End of Footer Icon -->
+      </div> <!-- End of Footer Icon -->
     </footer>
   </body>
 </html>
