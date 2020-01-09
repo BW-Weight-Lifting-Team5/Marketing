@@ -580,6 +580,14 @@ footer .footer-icon-container p {
   justify-content: center;
   width: 50%;
 }
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container .description-block {
+    width: 100%;
+  }
+  .landing-page-container .bottom-container .description-block p {
+    text-align: center;
+  }
+}
 @media (max-width: 500px) {
   .landing-page-container .bottom-container .description-block {
     padding-top: 2%;
@@ -626,6 +634,11 @@ footer .footer-icon-container p {
   justify-content: center;
   padding: 0 1%;
   width: 50%;
+}
+@media (max-width: 800px) {
+  .landing-page-container .bottom-container .three-steps-container {
+    width: 100%;
+  }
 }
 .landing-page-container .bottom-container .three-steps-container .usage-step {
   background: #8B0000;
