@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css?family=Merriweather|Solway|Ultra|Vidaloka&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Overpass|Quicksand&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/barbelllift.jpg" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/3d60a2a03b.js" crossorigin="anonymous"></script>
     <link href="css/about-page.css" rel="stylesheet" />
@@ -19,16 +21,18 @@
   <body class="about-body">
     <header class="about-header">
       <div class="nav-wrapper floating-nav">
-        <nav class="about-nav">
+        <nav>
           <div class="nav-icon">
             <a href="index.html" class="icon-link"><i class="fas fa-dumbbell middleNavIcon"></i></a>
           </div>
-          <a href="index.html">Home</a>
-          <a href="features.html">Features</a>
-          <a href="about.html" class="active-link">About</a>
-          <a href="contact.html">Contact</a>
-          <a class="cta" href="#">Login</a>
-          <a class="cta signup" href="#">Sign Up</a>
+          <div class="links">
+            <a href="index.html">Home</a>
+            <a href="features.html">Features</a>
+            <a href="about.html" class="active-link">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="cta" href="#">Login</a>
+            <a class="cta signup" href="#">Sign Up</a>
+          </div>
         </nav>
       </div>
     </header>
@@ -95,41 +99,26 @@
       </div>
     </div>
     <div class="cta-wrapper">
-      <section class="cta-section">
-        <div class="text">
-          <h3>Ready to get started?</h3>
-          <p>Get started today and make your first step towards your fitness goals!</p>
-        </div>
-        <div class="buttons">
-          <ul>
-            <a href="#">
-              <li class="log-in">Log in</li>
-            </a>
-            <a href="#">
-              <li class="sign-up"><span>Sign Up</span></li>
-            </a>
-          </ul>
-        </div>
-      </section>
+      <div class="text">
+        <h3>Ready to get started?</h3>
+      </div>
+      <div class="cta">
+        <p>Get started today and make your first step towards your fitness goals!</p>
+
+        <a href="#" class="log-in">
+          Log In
+        </a>
+        <a href="#" class="sign-up">
+          Sign Up
+        </a>
+      </div>
     </div>
     <footer>
-      <div class="footer-link-container">
-        <!-- Footer Links -->
-        <a href="index.html">Home</a>
-        <a href="features.html">Features</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <!-- End of Footer Links -->
-
-      <div class="footer-icon-container">
-        <!-- Footer Icon -->
-        <div>
-          <a href="index.html" class="icon-link"><i class="fas fa-dumbbell footer-img"></i></a>
-        </div>
-        <p class="footer-copyright">Copyright 2020</p>
-      </div>
-      <!-- End of Footer Icon -->
+      <a href="index.html" class="icon-link"><i class="fas fa-dumbbell footer-img"></i></a>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </footer>
   </body>
 </html>
