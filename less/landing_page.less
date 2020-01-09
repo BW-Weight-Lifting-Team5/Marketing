@@ -117,6 +117,15 @@
     .description-block {
       .flex();
       .flex-column();
+      width: 50%;
+
+      @media @tablet {
+        width: 100%;
+
+        p {
+          text-align: center;
+        }
+      }
 
       @media @mobile {
         padding-top: 2%;
@@ -157,6 +166,11 @@
       .flex();
       .flex-column();
       padding: 0 1%;
+      width: 50%;
+
+      @media @tablet {
+        width: 100%;
+      }
 
       .usage-step {
         .box-bg(@red, 2px, @white);
