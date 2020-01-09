@@ -2,10 +2,10 @@
 body {
   margin: 0;
   padding: 0;
-}
-body {
   background-color: #f9f9f9;
   color: #0d122b;
+  width: 100%;
+  box-sizing: border-box;
 }
 .nav-wrapper {
   background-color: #ffffff;
@@ -22,7 +22,7 @@ body {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-nav {
+.about-nav {
   padding: 1em;
   background-color: white;
   font-family: "Solway";
@@ -30,19 +30,19 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav a {
+.about-nav a {
   text-decoration: none;
   color: black;
 }
-nav a:hover {
+.about-nav a:hover {
   color: #e03e3e;
 }
-nav .cta {
+.about-nav .cta {
   color: #eb1a13;
   padding-left: 5px;
   padding-right: 5px;
 }
-nav .cta:hover {
+.about-nav .cta:hover {
   color: #42a73f;
 }
 .about {
@@ -72,17 +72,18 @@ nav .cta:hover {
   border-radius: 100px;
 }
 .cta-wrapper {
-  width: 100%;
+  width: 100vw;
   background-color: lightsalmon;
   font-family: "Merriweather";
   font-size: 1.2rem;
   padding-left: 150px;
   display: flex;
   justify-content: flex-start;
+  flex-wrap: row wrap;
 }
 footer {
   background-color: #0d122b;
-  width: 100%;
+  width: 100vw;
   font-family: "Merriweather";
   font-size: 1.2rem;
   color: white;
