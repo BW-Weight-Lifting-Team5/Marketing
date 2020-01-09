@@ -727,13 +727,18 @@ nav a:hover {
   color: #e03e3e;
 }
 nav .cta {
-  color: #eb1a13;
+  color: maroon;
+  background-color: #a4f79d;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  border: 2px solid black;
   font-family: "Overpass";
-  padding-left: 5px;
-  padding-right: 5px;
+  text-align: center;
 }
 nav .cta:hover {
-  color: #42a73f;
+  color: #eaf5e9;
+  background-color: #ca0b0b;
 }
 .about {
   font-family: "Noto Sans JP", sans-serif;
@@ -829,6 +834,10 @@ nav .cta:hover {
 .cta-wrapper .sign-up {
   background-color: #f5475e;
   color: white;
+}
+.cta-wrapper .sign-up:hover {
+  color: #f5475e;
+  background-color: white;
 }
 footer {
   background-color: #0d122b;
