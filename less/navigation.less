@@ -34,6 +34,10 @@ header {
 
       @media @mobile {
         font-size: 1.2rem;
+
+        &:not(:first-child) {
+          display: none;
+        }
       }
 
       &:hover {
@@ -77,7 +81,73 @@ header {
 
     .navbar {
       .flex();
+      flex-direction: row-reverse;
       padding-bottom: 1%;
+
+      @media @mobile {
+        .responsive {
+          position: relative;
+        }
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+
+        #toggle-nav {
+          width: 10%;
+          text-align: end;
+        }
+
+        .icon {
+          display: none;
+  
+          @media @mobile {
+            display: block;
+            position: absolute;
+            margin-right: 10%;
+            margin-top: 2.5%;
+            right: 0;
+            top: 0;
+            font-size: 2rem;
+          }
+        }
+
+        &:hover {
+          display: block;
+
+          .dropdown-content {
+            display: block;
+            background: @white;
+
+             a {
+               color: @red;
+             }
+
+             a:hover {
+               color: @steel;
+             }
+          }
+        }
+      } 
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+
+        a {
+          float: none;
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+      }
 
       @media @mobile {
         height: 50%;
@@ -89,6 +159,10 @@ header {
         margin-left: 2%;
         margin-right: 2%;
         justify-content: space-evenly;
+
+        a {
+          width: 25%;
+        }
 
         @media @mobile {
           width: 45%;
